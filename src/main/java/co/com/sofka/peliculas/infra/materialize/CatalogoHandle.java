@@ -40,7 +40,7 @@ public class CatalogoHandle {
         document.put("pelicula."+event.getPeliculaId()+".agno", event.getYear());
         document.put("pelicula."+event.getPeliculaId()+".duracion", event.getDuracion());
         document.put("pelicula."+event.getPeliculaId()+".descripcion", event.getDescripcion());
-        document.put("pelicula."+event.getPeliculaId()+".nombre", event.getGenero());
+        document.put("pelicula."+event.getPeliculaId()+".genero", event.getGenero());
         document.put("pelicula."+event.getPeliculaId()+".url", event.getUrl());
         document.put("pelicula."+event.getPeliculaId()+".fecha", Instant.now());
 
